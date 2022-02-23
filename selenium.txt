@@ -1,0 +1,62 @@
+Selenium
+==========
+8 Parameters :
+CLASS NAME, CSS SCELETOR, ID , NAME, LINK TEXT, PARTIAL LINK TEXT, TAG NAME, X PATH.
+
+
+intereview question :
+
+can we overwite the text box in selenium.....no, it will ly append the text by using sendkeys
+
+get text() method ?
+ inbetween tags kulla eruka value va aduka get text use panrom
+ 
+ 
+ get attribuites ?
+ oru tag kulla parameter eruka valeu haa aduka get attribuites.
+ 
+ I frame?
+  html inside html ,...like html---->html.
+  
+  nested frame?
+  
+    html inside html inside html ,...like html---->html---->html.
+	
+	mouse actions---> we have to use actions class
+	
+	Stale element exeception ?
+	if we a location of the element and save it into a object name. the current page is refreshed or it nav to anaother page
+	and it comes back to the original page. then after we cannot make any operation on that saved element object name.
+	we have find the location again then only the perform actoins will work.
+	
+	driver.get() ?
+	this get() only opem the page as we entered url.
+	
+	driver.navigate().to() ?
+	in this method we can refresh the page and use the operation like forward and backward
+	
+	how to check the images is broken or not ?
+	get all the images and check the naturalwidth if the natural width is 0 then this image is broken image
+	
+	how to find the location of the link or a button?
+	in the href ATTRIBUTES it contains the location where to go.
+	 
+	=========================================================================================================================================
+	TESTNG
+	in testng we wont use main methods
+	we will use @test in the methods so we can run it
+	the test case will run according to the alphapetic order
+    we will set a priority to the test case to run by our orders
+    if we want to skip the test case we will add the ,eneabled=fase to the test case in the priority.
+	
+	TESTNnG ...> is TESTNG FRAMEWORK  unit, functional,integration, end to end and so on
+	
+	realtime requirements problem for this solution is builtin in the testng
+	
+	for suite:
+	class name should be packagename.classname
+	
+	verbose = level of information to be indicate
+	
+
+ 
